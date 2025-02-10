@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f;
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #000;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+#hero {
+    background: url('data:image/webp;base64,INSERT_BASE64_IMAGE_HERE') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+#hero .btn {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#hero .btn:hover {
+    background-color: #e67e22;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    color: #f39c12;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#ai-biology .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#ai-biology img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tech-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tech-item {
+    background-color: #333;
+    padding: 20px;
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.tech-item h3 {
+    color: #f39c12;
+    font-size: 1.8rem;
+}
+
+.tech-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
